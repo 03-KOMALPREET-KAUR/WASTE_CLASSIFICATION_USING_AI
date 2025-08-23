@@ -1,11 +1,13 @@
 # ♻️WASTE_CLASSIFICATION_USING_AI
 
 📌 **Overview**
+
 This project presents a deep learning-based image classification approach to waste segregation, designed to identify whether waste is biodegradable or non-biodegradable.
 It further classifies items into categories like plastic, metal, paper, cardboard, organic waste, glass types, clothes, shoes, batteries, and trash.
 The system also provides disposal guidance – suggesting whether a material can be reused, recycled, or requires safe disposal.
 
 📊 **Dataset**
+
 We used the Garbage Classification Dataset consisting of 15,150 images from 12 different classes:
 - Paper
 - Cardboard
@@ -22,6 +24,7 @@ We used the Garbage Classification Dataset consisting of 15,150 images from 12 d
 📂 Source: Garbage Classification Dataset on Kaggle
 
 🧠 **Methodology**
+
 Built with Deep Learning (Transfer Learning with EfficientNetB0)
 
 Stage 1: Binary classification → Biodegradable vs Non-Biodegradable
@@ -31,6 +34,7 @@ Class Weights applied to handle class imbalance
 Outputs include waste disposal suggestions
 
 ⚙️ **Tech Stack**
+
 Python 
 TensorFlow / Keras
 NumPy, Pandas, Matplotlib
